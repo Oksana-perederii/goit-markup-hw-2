@@ -1,0 +1,54 @@
+body {
+    background-color: fffff;
+color: #212121;
+}
+
+/* header */
+
+.logo {
+    color: #2196F3;
+}
+.logo-secondary {
+    color:#000000 ;
+}
+
+.link{
+    list-style: none;
+    color: #212121;
+}
+
+.link .link.studio:hover,
+.link .link.studio:focus,
+.link .link.studio:active
+ {
+color: #2196F3;
+}
+
+
+.link .link.portfolio:hover,
+.link .link.portfolio:focus,
+.link .link.portfolio:active
+{
+    color: #2196F3;
+}
+.link .link.contakts:hover,
+.link .link.contakts:focus,
+.link .link.contakts:active {
+color: #2196F3;
+}
+
+.mail {
+    color: #757575;
+}
+.mail:hover,
+.mail:focus{
+    color: #2196F3;
+}
+
+.tel {
+    color:#757575 ;
+}
+.tel:hover,
+.tel:focus{
+    color: #2196F3;
+}
