@@ -1,3 +1,9 @@
+
+
+/* basic bcg-color #ffffff
+secondary bcg-color #F5F4FA
+basic text color #212121;
+secondary text color #757575;  */
 body {
     background-color: fffff;
 color: #212121;
@@ -8,7 +14,7 @@ color: #212121;
 .logo {
     color: #2196F3;
 }
-.logo-secondary {
+.logo-dark {
     color:#000000 ;
 }
 
@@ -51,4 +57,84 @@ color: #2196F3;
 .tel:hover,
 .tel:focus{
     color: #2196F3;
+} 
+
+/* main */
+.header {
+    background-color: #2F303A;
 }
+
+.header.text {
+    color: #FFFFFF;
+}
+
+.feature {
+    background-color: #F5F5F5;
+    list-style: none;
+}
+
+.feture.gallery.title {
+    color: #212121;
+}
+.feature.text {
+    color: #757575;
+}
+
+.gallery {
+    background-color: #F5F5F5;
+    list-style: none;
+}
+.gallery.title {
+    color: #212121;
+    
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+.team.title {
+    color: #212121;
+}
+.team.list {
+    list-style: none;
+}
+
+.team.worker {
+    color:  #212121;
+}
+
+.team.job {
+    color: #757575;
+}
+
+/* footer */
+
+.footer {
+    background: #2F303A;
+}
+
+.logo-light {
+    color: #FFFFFF;
+}
+
+.footer.list {
+    list-style: none;
+}
+
+.footer.map  {
+    color: #FFFFFF;
+}
+
+.footer.mail {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer.mail:hover,
+.footer.mail:focus{}
+
+.footer.tel {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer.tel:hover,
+.footer.tel:focus {}
